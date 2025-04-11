@@ -87,3 +87,10 @@ npx cucumber-js
 - [Cucumber.js Documentation](https://cucumber.io/docs/cucumber/)
 
 By following these steps, you can successfully integrate Playwright with Cucumber for automated testing of web applications.
+
+
+**Next Steps**
+- [Sentry Test Kit Additions]()
+  - To add more visitibilty in the test automation inorder to have a preventative look and promote that testing and quality is a share responseablity between developers and QA engineers 
+-[BrowserStack Integration]() 
+  - To support multi-browser and cross browser testing. This will help if the application is deployed and accessed through mutliple mediums is (Iphone, samsung etc..)   
