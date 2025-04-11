@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 718875
+              "duration": 597625
             }
           },
           {
@@ -26,8 +26,9 @@
               "location": "api-tests/steps/echo-api.steps.ts:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 1046405750
+              "status": "failed",
+              "duration": 61912583,
+              "error_message": "Error: unable to get local issuer certificate\n    at Function.AxiosError.from (/Users/mnashed@scentregroup.com/Desktop/Repos/Playwright-testing-framework/node_modules/axios/lib/core/AxiosError.js:89:14)\n    at RedirectableRequest.handleRequestError (/Users/mnashed@scentregroup.com/Desktop/Repos/Playwright-testing-framework/node_modules/axios/lib/adapters/http.js:610:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at RedirectableRequest.emit (node:domain:489:12)\n    at ClientRequest.eventHandlers.<computed> (/Users/mnashed@scentregroup.com/Desktop/Repos/Playwright-testing-framework/node_modules/follow-redirects/index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at ClientRequest.emit (node:domain:489:12)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at Axios.request (/Users/mnashed@scentregroup.com/Desktop/Repos/Playwright-testing-framework/node_modules/axios/lib/core/Axios.js:45:41)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async APIClient.get (/Users/mnashed@scentregroup.com/Desktop/Repos/Playwright-testing-framework/api-tests/support/api-client.ts:29:10)\n    at async World.<anonymous> (/Users/mnashed@scentregroup.com/Desktop/Repos/Playwright-testing-framework/api-tests/steps/echo-api.steps.ts:27:20)"
             }
           },
           {
@@ -39,8 +40,8 @@
               "location": "api-tests/steps/echo-api.steps.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 3412792
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -52,8 +53,8 @@
               "location": "api-tests/steps/echo-api.steps.ts:44"
             },
             "result": {
-              "status": "passed",
-              "duration": 611875
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -61,14 +62,8 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 269999
-            },
-            "embeddings": [
-              {
-                "data": "Y3VybCAtLWxvY2F0aW9uICdodHRwczovL3Bvc3RtYW4tZWNoby5jb20vZ2V0JwogIC0taGVhZGVyICdBY2NlcHQ6IGFwcGxpY2F0aW9uL2pzb24sIHRleHQvcGxhaW4sICovKicKICAtLWhlYWRlciAnQ29udGVudC1UeXBlOiB1bmRlZmluZWQnCiAgLS1oZWFkZXIgJ1VzZXItQWdlbnQ6IGF4aW9zLzEuNy45JwogIC0taGVhZGVyICdBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGNvbXByZXNzLCBkZWZsYXRlLCBicic=",
-                "mime_type": "text/plain"
-              }
-            ]
+              "duration": 149290
+            }
           }
         ],
         "tags": [
@@ -95,7 +90,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 79500
+              "duration": 186082
             }
           },
           {
@@ -108,7 +103,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 68250
+              "duration": 100791
             }
           },
           {
@@ -121,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2053238665
+              "duration": 45445917
             }
           },
           {
@@ -133,8 +128,9 @@
               "location": "api-tests/steps/echo-api.steps.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 1336583
+              "status": "failed",
+              "duration": 1107208,
+              "error_message": "AssertionError: expected null not to be null\n    at World.<anonymous> (/Users/mnashed@scentregroup.com/Desktop/Repos/Playwright-testing-framework/api-tests/steps/echo-api.steps.ts:39:34)"
             }
           },
           {
@@ -146,8 +142,8 @@
               "location": "api-tests/steps/echo-api.steps.ts:92"
             },
             "result": {
-              "status": "passed",
-              "duration": 637708
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -159,8 +155,8 @@
               "location": "api-tests/steps/echo-api.steps.ts:44"
             },
             "result": {
-              "status": "passed",
-              "duration": 527708
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -168,14 +164,8 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 108041
-            },
-            "embeddings": [
-              {
-                "data": "Y3VybCAtLWxvY2F0aW9uICdodHRwczovL3Bvc3RtYW4tZWNoby5jb20vcG9zdCcKICAtLWhlYWRlciAnQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uLCB0ZXh0L3BsYWluLCAqLyonCiAgLS1oZWFkZXIgJ0NvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbicKICAtLWhlYWRlciAnVXNlci1BZ2VudDogYXhpb3MvMS43LjknCiAgLS1oZWFkZXIgJ0NvbnRlbnQtTGVuZ3RoOiAxNycKICAtLWhlYWRlciAnQWNjZXB0LUVuY29kaW5nOiBnemlwLCBjb21wcmVzcywgZGVmbGF0ZSwgYnInCiAgLS1kYXRhICd7Im1ldGhvZCI6IlBPU1QifSc=",
-                "mime_type": "text/plain"
-              }
-            ]
+              "duration": 164208
+            }
           }
         ],
         "tags": [
@@ -202,7 +192,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 56625
+              "duration": 179124
             }
           },
           {
@@ -215,7 +205,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30208
+              "duration": 160542
             }
           },
           {
@@ -228,7 +218,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 86040
+              "duration": 84749
             }
           },
           {
@@ -241,7 +231,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 235734500
+              "duration": 31918415
             }
           },
           {
@@ -253,8 +243,9 @@
               "location": "api-tests/steps/echo-api.steps.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 1222708
+              "status": "failed",
+              "duration": 417666,
+              "error_message": "AssertionError: expected null not to be null\n    at World.<anonymous> (/Users/mnashed@scentregroup.com/Desktop/Repos/Playwright-testing-framework/api-tests/steps/echo-api.steps.ts:39:34)"
             }
           },
           {
@@ -266,8 +257,8 @@
               "location": "api-tests/steps/echo-api.steps.ts:101"
             },
             "result": {
-              "status": "passed",
-              "duration": 211874
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -275,14 +266,8 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 154959
-            },
-            "embeddings": [
-              {
-                "data": "Y3VybCAtLWxvY2F0aW9uICdodHRwczovL3Bvc3RtYW4tZWNoby5jb20vcG9zdCcKICAtLWhlYWRlciAnQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uLCB0ZXh0L3BsYWluLCAqLyonCiAgLS1oZWFkZXIgJ0NvbnRlbnQtVHlwZTogdGV4dC9wbGFpbicKICAtLWhlYWRlciAnVXNlci1BZ2VudDogYXhpb3MvMS43LjknCiAgLS1oZWFkZXIgJ0NvbnRlbnQtTGVuZ3RoOiAxNycKICAtLWhlYWRlciAnQWNjZXB0LUVuY29kaW5nOiBnemlwLCBjb21wcmVzcywgZGVmbGF0ZSwgYnInCiAgLS1kYXRhICd7Im1ldGhvZCI6IlBPU1QifSc=",
-                "mime_type": "text/plain"
-              }
-            ]
+              "duration": 123832
+            }
           }
         ],
         "tags": [
@@ -309,7 +294,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 52125
+              "duration": 163457
             }
           },
           {
@@ -322,7 +307,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40874
+              "duration": 109916
             }
           },
           {
@@ -335,7 +320,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 230754958
+              "duration": 32496791
             }
           },
           {
@@ -347,8 +332,9 @@
               "location": "api-tests/steps/echo-api.steps.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 1213750
+              "status": "failed",
+              "duration": 575749,
+              "error_message": "AssertionError: expected null not to be null\n    at World.<anonymous> (/Users/mnashed@scentregroup.com/Desktop/Repos/Playwright-testing-framework/api-tests/steps/echo-api.steps.ts:39:34)"
             }
           },
           {
@@ -356,14 +342,8 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 150208
-            },
-            "embeddings": [
-              {
-                "data": "Y3VybCAtLWxvY2F0aW9uICdodHRwczovL3Bvc3RtYW4tZWNoby5jb20vcG9zdCcKICAtLWhlYWRlciAnQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uLCB0ZXh0L3BsYWluLCAqLyonCiAgLS1oZWFkZXIgJ0NvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbicKICAtLWhlYWRlciAnVXNlci1BZ2VudDogYXhpb3MvMS43LjknCiAgLS1oZWFkZXIgJ0NvbnRlbnQtTGVuZ3RoOiAyJwogIC0taGVhZGVyICdBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGNvbXByZXNzLCBkZWZsYXRlLCBicicKICAtLWRhdGEgJ3t9Jw==",
-                "mime_type": "text/plain"
-              }
-            ]
+              "duration": 103542
+            }
           }
         ],
         "tags": [
